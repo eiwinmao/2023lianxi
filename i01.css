@@ -1,0 +1,197 @@
+*{margin: 0;
+padding: 0;
+}
+html,body{height: 100%;}
+#dingbu{
+	height: 8%;
+	background-color: #272c36;
+	border-bottom: 1px solid #181a1f;
+}
+#logo{
+	font-size: 2.5rem;
+	margin-left: 1rem;
+	color:rgba(255, 255, 255, 0.5);
+}
+#neirong{
+	height: 92%;
+	display: flex;
+}
+/* 布局 */
+#neirong_zuoce{
+	width: 98px;
+	background-color: #21252b;
+	height:100%;
+	border-right: 1px solid #181a1f;
+}
+
+#neirong_youce{
+	flex: 22;
+	height: 100%;
+	background-color: #272c36;
+}
+#yeqian{
+	height: 2.4rem;
+	background-color: #272c36;
+	border-bottom: 1px solid #181a1f;
+	margin-left: 5px;
+}
+#caozuo{
+	height: 2rem;
+	background-color: #21252b;
+	border-bottom: 1px solid #181a1f;
+}
+/* 页签栏 */
+#yeqian ul li{
+	display: inline;
+	line-height: 2.4rem;
+	padding: 5px 25px;
+	border-radius: 1.2rem;
+	border: 1px solid #181a1f;
+	background-color:#272c36;
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 14px;
+}
+/* 页面标签 */
+#yeqian ul li.yeqian_jihuo{
+	background-color: #181a1f;
+	color: rgba(255, 255, 255, 1);
+}
+/* 操作栏 */
+#caozuo ul li{
+	/* 列表不要独占一行 */
+	display: inline;
+	line-height: 2rem;
+	padding-left: 20px;
+	font-size: 14px;
+}
+#caozuo ul li a{
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.5);
+}
+#caozuo ul li a:hover{
+	color: rgba(255, 255, 255, 1);
+}
+
+
+
+/* 左侧菜单 */
+#neirong_zuoce li{
+	border-bottom: 1px solid rgba(200, 220, 255, 0.1);
+}
+#neirong_zuoce ul a{
+	text-decoration: none;
+	}
+.zuoce_caidan p{
+	padding-top: 3.2rem;
+	color: rgba(200, 220, 255, 0.6);
+	font-size: 14px;
+}
+
+#neirong_zuoce li:hover{
+	background: #000;
+}
+
+
+.zuoce_caidan{
+	width: 100%;
+	height: 5rem;
+	text-align: center;
+	position: relative;
+}
+.zuoce_caidan img {
+	max-width: 100%;
+	width: 2rem;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	padding-top: 0.9rem;
+	opacity: 0.5;
+}
+
+
+/* 内容区域 */
+
+#shuju{
+	padding: 10px;	
+	display: flex;
+}
+/* 查询区域 */
+.shuju_chaxun{
+	background-color: #181a1f;
+	border: 1px solid rgba(200, 220, 255, 0.1);
+	border-radius: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.shuju_chaxun th {
+	font-size: 12px;
+	font-weight: 100;
+	color:#abb2bf;
+}
+.shuju_chaxun td {
+	line-height: 34px;
+	padding-left: 5px;
+}
+.shuju_chaxun td input {
+	height: 22px;
+	padding-left: 5px;
+	border-radius: 20px;
+	border: none;
+	background-color: #272c36;
+	color: rgba(255, 255, 255, 0.8);
+}
+/* 查询条件方式 */
+.shuju_chaxun ul li{
+	margin-top: 10px;
+}
+.neirong_biaoti li{margin-top: 10px;}
+
+.chaxun_fangshi{
+	display: inline;
+	line-height: 32px;
+	color: rgba(255, 255, 255, 0.8);
+	list-style: none;
+}
+
+.n_20{
+	flex: 20;
+}
+.left_8{
+	margin-left: 8px;
+}
+
+
+
+.shuju_biaotou{
+	height: 2rem;
+	background-color: #abb2bf;
+}
+
+
+/* 按钮样式 */
+.btn{
+	height: 28px;
+	width: 80px;
+	line-height: 24px;
+	border-radius: 20px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	color: #fff;
+}
+.btn_l{
+	background-color:#3770ff;
+	border: 2px solid #608eff;
+}
+.btn_c{
+	background-color:#ff9a37;
+	border: 2px solid #f4b845;
+}
+
+
+
+#tongji{}
+
+
+
+#dibu{}
